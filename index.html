@@ -11,15 +11,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap" rel="stylesheet">
-    <!-- Font awesome -->
-    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Wow css -->
+  <link rel='stylesheet' href='animate.css' />
+  <link rel="stylesheet" href="animate.min.css" />
 </head>
 
 <body>
     <div class="nav-container">
         <div class="navbar">
             <h1 id="navbar-logo">
-                Kainos
+                Kain<span>o</span>s
             </h1>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -27,20 +28,20 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-links active">Home</a></li>
-                <li><a href="#about" class="nav-links">About</a></li>
-                <li><a href="#team" class="nav-links">Team</a></li>
-                <li><a href="#services" class="nav-links">Service</a></li>
-                <li><a href="#contact" class="nav-links">Contact</a></li>
+                <li><a href="#home" class="nav-links active smooth-scroll">Home</a></li>
+                <li><a href="#about" class="nav-links smooth-scroll">About</a></li>
+                <li><a href="#team" class="nav-links smooth-scroll">Team</a></li>
+                <li><a href="#services" class="nav-links smooth-scroll">Service</a></li>
+                <li><a href="#contact" class="nav-links smooth-scroll">Contact</a></li>
             </ul>
         </div>
     </div>
     <section id="home">
         <div class="home-container">
             <div class="home-content">
-                <h1>KAINOS - Design Faster. Collaborate Better.</h1>
-                <p>Prototype, design, collaborate, and design system all in <span> KAINOS </span></p>
-                <button class="btn btn-home">
+                <h1 class="animate__animated animate__zoomIn animate__slower">Design Faster. Collaborate Better.</h1>
+                <p class="animate__animated animate__zoomIn animate__slower ">Prototype, design, collaborate, and design system all in  KAIN<span>O</span>S</p>
+                <button class="btn btn-home animate__animated animate__slideInUp animate__slower">
                     <a href="#">Start Now</a>
                 </button>
             </div>
@@ -50,12 +51,12 @@
         <div class="content-box-lg">
             <div class="container">
                 <div class="about-content">
-                    <div class="about-content-title">
+                    <div class="about-content-title wow animate__slideInLeft" data-wow-duration="2s">
                         <h4>Who We Are</h4>
                         <h1>A <b>Story</b></h1>
                         <h1>About Us</h1>
                     </div>
-                    <div class="about-content-text-box">
+                    <div class="about-content-text-box wow animate__slideInRight" data-wow-duration="2s">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quod exercitationem natus
                             eius dicta aspernatur distinctio temporibus, eveniet assumenda alias ipsam. Fugiat ex
                             mollitia blanditiis modi possimus, accusantium velit fuga!</p>
@@ -65,14 +66,14 @@
                     </div>
                 </div>
                 <div class="about-img-container">
-                    <img src="images/kneios.png" alt="" class="about-img">
+                    <img src="images/kneios.png" alt="" class="about-img wow animate__zoomIn" data-wow-duration="2s">
                 </div>
             </div>
         </div>
         <div class="content-box-md">
             <div class="container">
                 <div class="card-container">
-                    <div class="card">
+                    <div class="card wow animate__slideInLeft" data-wow-duration="2s">
                         <div class="card-item">
                             </i><i class="fas fa-rocket"></i>
                             <h3>Mission</h3>
@@ -84,7 +85,7 @@
                                 natus reiciendis. Dolore, repudiandae.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card about-img wow animate__zoomIn" data-wow-duration="2s">
                         <div class="card-item">
                             <i class="fa-solid fa-eye"></i>
                             <h3>Vision</h3>
@@ -96,7 +97,7 @@
                                 natus reiciendis. Dolore, repudiandae.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card wow animate__slideInRight" data-wow-duration="2s">
                         <div class="card-item">
                             <i class="fas fa-pencil"></i>
                             <h3>Passing</h3>
@@ -118,19 +119,19 @@
             <div class="container">
                 <div class="team-content">
                     <div class="team-left-content">
-                        <div class="team-content-title">
+                        <div class="team-content-title wow animate__fadeInDown" data-wow-duration="2s">
                             <h4>Who We Are</h4>
                             <h1>Meet Our </h1>
                             <h1><b>Talended</b> Team</h1>
                         </div>
-                        <div class="team-content-text-box">
+                        <div class="team-content-text-box wow animate__fadeInUp" data-wow-duration="2s">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quod exercitationem
                                 natus eius dicta aspernatur distinctio temporibus, eveniet assumenda alias ipsam. Fugiat
                                 ex mollitia blanditiis modi possimus, accusantium velit fuga!</p>
                         </div>
                     </div>
                     <div class="team-right-content">
-                        <img src="images/team.jpg" alt="team" class="team-img">
+                        <img src="images/team.jpg" alt="team" class="team-img wow animate__fadeInRight" data-wow-duration="2s">
                     </div>
                 </div>
             </div>
@@ -140,17 +141,17 @@
         <div class="content-box-lg">
             <div class="container">
                 <div class="service-content">
-                    <div class="service-hearder">
-                        <h4>What We Do</h4>
-                        <h1>Our Services</h1>
+                    <div class="service-hearder" >
+                        <h4 class="wow animate__slideInDown " data-wow-duration="2s">What We Do</h4>
+                        <h1 class="wow animate__zoomIn" data-wow-duration="2s">Our Services</h1>
                     </div>
                     <div class="service-content-box">
                         <div class="service-left">
-                            <img src="images/services.jpg" alt="" class="services-img">
+                            <img src="images/services.jpg" alt="" class="services-img wow animate__slideInLeft" data-wow-duration="2s">
                         </div>
                         <div class="service-right">
                             <div class="service-card-container">
-                                <div class="service-card">
+                                <div class="service-card wow animate__slideInRight" data-wow-duration="1s">
                                     <div class="service-card-item">
                                         <h1><i class="fa-solid fa-laptop"></i></h1>
                                         <div class="text-box">
@@ -162,7 +163,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="service-card">
+                                <div class="service-card wow animate__slideInRight" data-wow-duration="1.5s">
                                     <div class="service-card-item">
                                         <h1><i class="fa-solid fa-mobile-screen-button"></i></h1>
                                         <div class="text-box">
@@ -174,7 +175,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="service-card">
+                                <div class="service-card wow animate__slideInRight" data-wow-duration="2s">
                                     <div class="service-card-item">
                                         <h1><i class="fas fa-paint-brush"></i></h1>
                                         <div class="text-box">
@@ -201,7 +202,7 @@
                         <h1>Our Pricing</h1>
                     </div>
                     <div class="card-container">
-                        <div class="card">
+                        <div class="card wow animate__slideInLeft" data-wow-duration="2s">
                             <div class="card-item">
                                 <h1>Basic</h1>
                                 <p class="price"><span>$10/month</span></p>
@@ -215,7 +216,7 @@
                                 <button class="service-btn">Get Started</button>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow animate__zoomIn" data-wow-duration="2s">
                             <div class="card-item">
                                 <h1>Unlimited</h1>
                                 <p class="price"><span>$30/month</span></p>
@@ -229,7 +230,7 @@
                                 <button class="service-btn active-btn">Get Started</button>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow animate__slideInRight" data-wow-duration="2s">
                             <div class="card-item">
                                 <h1>Professional</h1>
                                 <p class="price"><span>$60/month</span></p>
@@ -251,15 +252,9 @@
 
     <section id="contact">
         <div class="content-box-lg">
-            <div class="map-container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.42487558052363!2d96.14696910426584!3d16.8065504526559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb9fcad5d46d%3A0x66aab67a5e1f8839!2sTime%20Link!5e0!3m2!1sen!2smm!4v1687236024333!5m2!1sen!2smm"
-                    style="border:0; width: 100%; height: 100vh;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
             <div class="container">
                 <div class="contact-content">
-                    <div class="contact-text-box">
+                    <div class="contact-text-box wow animate__slideInLeft" data-wow-duration="2s">
                         <h1>Contact Us</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia inventore praesentium et
                             placeat
@@ -268,7 +263,7 @@
                             ipsum nemo autem!
                         </p>
                     </div>
-                    <div class="contact-form">
+                    <div class="contact-form wow animate__slideInRight" data-wow-duration="2s">
                         <div class="form-item">
                             <div class="label">First Name</div>
                             <input type="text">
@@ -301,6 +296,12 @@
         </div>
     </section>
     <script src="app.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+
+    <!-- Wow css js -->
+  <script src="wow.min.js"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/7589c73f90.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
